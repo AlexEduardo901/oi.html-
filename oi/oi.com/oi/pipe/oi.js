@@ -1,0 +1,1 @@
+const cais = window.document.querySelectorall(.ca);

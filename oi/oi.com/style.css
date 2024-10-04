@@ -7,6 +7,7 @@
 
         menu#oi{
             display: none;
+
         }
         menu#oi-{
             background: rgb(54, 54, 54);
@@ -23,12 +24,56 @@
 
         section{
             background-color: rgb(120, 128, 96);
-            margin: 0%
+            margin: 0%;
             padding: 1px 2px;
             border: 10px solid rgb(120, 128, 96);
 
         }
 
         main#oi-1{
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(82, 81, 81);
+            
+        }
+
+        main.oi{
+            background-color: white;
+            margin: auto;
+            width: 400px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+
+
+        h1{
+            text-align: center;
+            
+        }
+        
+        p{
+            text-indent: 20px;
+        }
+
+        main > menu > ul > li > a:hover{
+            background-color: grey;
+            width: 400px;
+            display: block;
+            
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            background-color: rgb(120, 128, 96);;
+            color: rgb(198, 219, 239);
+            padding-left: 90%;
+            
+        }
+
+        header:hover{
+            text-decoration: underline;
+            color: white;
         }
