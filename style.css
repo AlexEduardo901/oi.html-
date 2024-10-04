@@ -1,0 +1,78 @@
+:root{
+    --oi: #400289;
+    --nave: #99ffff;
+    --fonte_principal: 10pt Arial;
+    --cor_principal: #fffeee;
+}
+
+
+
+body{
+    font: var(--fonte_principal);
+    color: var(--cor_principal);
+    background: #00030f;
+    margin: 0%;
+}
+
+h1.oi:hover{border: 3px solid var(--cor_principal);
+    display: flex;
+    font-size: large;
+    background: transparent;
+    border-radius: 50%;
+    color: var(--cor_principal);
+    padding: 10px 15px;
+    margin: 3% 2% 3% 60px ;
+}
+
+nav{
+    background: var(--nave);
+    display: flex;
+}
+
+main{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    min-width: 250px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 0px 10px;
+}
+
+h3{
+margin: 10px;
+color: var(--oi);
+border: 1px solid var(--cor_principal);
+padding: 10px 20px;
+}
+
+h3:hover{
+  background-color:#003309;
+  color: var(--cor_principal);
+}
+
+footer{
+    padding-top: 20px;
+    background: var(--cor_principal);
+    
+    display:flex;
+    padding-bottom: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: auto;
+    color: #400289;
+}
+
+a:hover{
+    text-decoration: underline;
+}
